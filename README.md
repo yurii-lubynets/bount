@@ -17,3 +17,11 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+
+### Code
+Bount has a standard architectural layering of: server side APIs with a JavaScript client on the front-end. The backend mainly serves up data through RESTful, link-based APIs. The front-end, in addition to `React`, uses `Redux` to manage application state and `Redux-thunk` to deal with asynchronous actions, primarily data fetching.
+<br><br>
+All app code is located in `src` folder.<br>
+The `action` folder contains all Redux Actions.<br>
+The `components` folder keeps all reusable components and app pages.<br>
+The Reducers in the folder `reducers` specify how the application's state changes in response to actions sent to the store.<br>
